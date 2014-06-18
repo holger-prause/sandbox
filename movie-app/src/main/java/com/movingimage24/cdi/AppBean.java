@@ -23,7 +23,7 @@ public class AppBean {
 	public void persist(Movie movie) {
 		movieDao.persist(movie);
 		
-		jmsApp.send("perisisted: "+movie.getId());
+		//jmsApp.send("perisisted: "+movie.getId());
 		//List<String> messages = jmsApp.getMessages();
 		
 		if(movie.getName().equalsIgnoreCase("aaa"))
