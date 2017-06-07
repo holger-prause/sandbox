@@ -1,4 +1,4 @@
-package de.idealo;
+package com.mycompany;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
